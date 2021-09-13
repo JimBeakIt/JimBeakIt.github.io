@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
         <title>My Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">        
+        <link rel="stylesheet" type="text/css" href="portfolio.css">        
     </head>
 
     <body class="Background">
@@ -18,7 +18,7 @@
 
         <div id="Home">
             <video autoplay muted loop id="Typing_Video">
-                <source src="images/video/Typing.mp4" type="video/mp4">
+                <source src="Typing.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
         </div>
@@ -37,23 +37,23 @@
             </strong>
         </div>
 
-        <!-- Slideshow section added -->
+     
         <div id="Slideshow">
             <div id="Slideshow_Background"> 
                 <div id="Slideshow_Container">
                     <!-- Slide 1 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/html.jpg" alt="">
+                        <img class="Slideshow_Images" src="html.jpg" alt="">
                         <div class="text">I'm available to assist you on your project!</div>
                     </div>
                     <!-- Slide 2 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/css.png" alt=""> 
+                        <img class="Slideshow_Images" src="css.png" alt=""> 
                         <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS,</div>
                     </div>
                     <!-- Slide 3 of 6 -->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/js.png" alt="">
+                        <img class="Slideshow_Images" src="js.png" alt="">
                         <div class="text">and JavaScript</div>
                     </div>
                     <!-- Slide 4 of 6 -->
@@ -66,9 +66,9 @@
                     <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="Next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <br> <!-- Adds a space between the slideshow images and the dots -->
+                <br> 
 
-                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                
                 <div style="text-align: center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -80,7 +80,7 @@
 
         <div class="Row" id="About">
             <div class="Column_2">
-                <img src="images/working.jpg" alt="Owl">
+                <img src="working.jpg" alt="">
             </div>
             
             <div class="Column_1">
@@ -109,15 +109,15 @@
             </div>
 
             <div class="Column_2">
-                <a href="https://github.com/JimBeakIt/HTML-and-CSS-Projects" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+                <a href="https://github.com/JimBeakIt/HTML-and-CSS-Projects" target="_blank"><img src="GitHub.png" alt="GitHub Logo"></a>
             </div>
         </div>
 
-           <!-- Contact form -->
+           
            <div id="Contact">
             <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <div class="form-popup" id="myForm">
-                 <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                 <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container">
                      <h1>Contact</h1>
                      <label for="name"><b>Name</b></label>
                        <input type="text" placeholder="Type your name here" name="name" required>

@@ -76,7 +76,7 @@ a {
     cursor: pointer; /* This ensures all links change the mouse to a pointer when hovered over or clicked */
     text-decoration: underline; /* This ensures all links are underlined */
 }
-}
+
 
 /* Quotation elements */
 q {
